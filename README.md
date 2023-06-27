@@ -1,2 +1,2 @@
 # Reviews-repo
-Reviews slide created with Jvascript
+Reviews slide created with Javascript
