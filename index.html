@@ -16,20 +16,32 @@
   <body>
     <main>
       <section class='container'>
+        <!-- Title -->
         <div class='title'>
           <h2>Our Reviews</h2>
           <div class='underline'></div>
         </div>
         <!-- Reivew -->
-      </section>
-      <article class='review'>
-        <div class='img-container'>
-          <img  src='person-1.jpeg' id='person-img' alt=''>
+        <article class='review'>
+          <div class='img-container'>
+            <img  src='person-1.jpeg' id='person-img' alt=''>
+          </div>
+          <h4 id='author'>Sara Jones</h4>
+          <p id='job'>UX Designer</p>
+          <p id='info'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet fermentum eros. Maecenas semper suscipit sem a auctor. Morbi a justo vitae tortor rhoncus fermentum. Phasellus ac turpis nec felis cursus cursus. Sed non tincidunt neque. </p>
+        <!-- prev next button-->
+        <div class='button-container'>
+          <button class='prev-btn'>
+            <i class='fas fa-chevron-left'></i>
+          </button>
+          <button class='next-btn'>
+            <i class='fas fa-chevron-right'></i>
+          </button>
         </div>
-        <h4 id='author'>Sara Jones</h4>
-        <p id='job'>UX Designer</p>
-        <p id='info'></p>
-      </article>
+        <!-- random -->
+        <button class='random-btn'>Random</button>
+        </article>
+      </section>  
     </main>
     <!-- javascript -->
     <script src="app.js"></script>
